@@ -1,0 +1,8 @@
+﻿.header{position:sticky;top:0;z-index:50;background:rgba(250,246,238,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+.inner{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{font-family:var(--font-heading);font-size:1.6rem}
+.nav{display:flex;gap:36px}
+.nav a{font-size:14px;letter-spacing:.18em;text-transform:uppercase;transition:color .2s}
+.nav a:hover{color:var(--sage)}
+.book{padding:10px 26px}
+@media(max-width:860px){.nav{display:none}}

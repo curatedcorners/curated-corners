@@ -1,0 +1,9 @@
+﻿.section{background:var(--sage);color:#fff}
+.heading{text-align:center;font-size:clamp(2.2rem,4.5vw,3.2rem);margin-bottom:56px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.card{background:rgba(255,255,255,.1);border-radius:var(--radius-card);padding:36px 32px}
+.stars{color:var(--terracotta);letter-spacing:4px;margin-bottom:20px}
+.quote{font-family:var(--font-heading);font-style:italic;font-size:1.3rem;line-height:1.5;margin-bottom:28px}
+.name{display:block;font-weight:500}
+.role{display:block;font-size:.8rem;letter-spacing:.15em;text-transform:uppercase;opacity:.75;margin-top:4px}
+@media(max-width:960px){.grid{grid-template-columns:1fr}}

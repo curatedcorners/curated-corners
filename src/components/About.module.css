@@ -1,0 +1,4 @@
+﻿.about{background:var(--cream-dark)}
+.inner{text-align:center}
+.title{font-size:clamp(2.2rem,4.5vw,3.4rem);margin-bottom:32px}
+.text{max-width:780px;margin:0 auto;font-size:1.15rem;color:var(--text-muted)}

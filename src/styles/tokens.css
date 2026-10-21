@@ -1,0 +1,20 @@
+:root {
+    --cream: #faf6ee;
+    --cream-dark: #f1ede2;
+    --sage: #5a6e58;
+    /* Book button, testimonials band */
+    --terracotta: #b86a4b;
+    /* small uppercase eyebrow labels */
+    --ink: #2b2620;
+    /* headings */
+    --text-muted: #6b665d;
+    /* body copy */
+    --border: #e6e0d2;
+
+    --font-heading: "Cormorant Garamond", serif;
+    --font-body: "Inter", sans-serif;
+
+    --radius-card: 24px;
+    --radius-pill: 999px;
+    --container: 1280px;
+}
