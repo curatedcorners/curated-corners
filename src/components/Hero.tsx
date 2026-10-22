@@ -6,7 +6,7 @@ export default function Hero() {
         <section id="top" className={styles.hero}>
             <div className={`container ${styles.grid}`}>
                 <div className={styles.text}>
-                    <p className="eyebrow">Space Styling &amp; Airbnb Transformation</p>
+                    <p className="eyebrow">Space Styling &amp; Transformation</p>
                     <h1 className={styles.title}>
                         Transforming Ordinary Spaces into Beautiful Experiences
                     </h1>

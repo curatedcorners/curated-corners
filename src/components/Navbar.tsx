@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "../assets/logo (2).jpeg";
 import styles from "./Navbar.module.css";
 
 const links = [
@@ -14,7 +15,8 @@ export default function Navbar() {
         <header className={styles.header}>
             <div className={`container ${styles.inner}`}>
                 <Link to="/" className={styles.logo}>
-                    Curated Corners
+                    <img src={logo} alt="Curated Corners logo" className={styles.logoImg} />
+                    <span>Curated Corners</span>
                 </Link>
 
                 <nav className={styles.nav} aria-label="Main">

@@ -28,7 +28,7 @@ export const services: Service[] = [
         id: "03",
         title: "Room Refresh",
         description:
-            "Affordable makeovers for bedrooms, living rooms and reading corners — a renewed feeling without the renovation.",
+            "Affordable makeovers for bedrooms, living rooms and reading corners  a renewed feeling without the renovation.",
     },
     {
         id: "04",

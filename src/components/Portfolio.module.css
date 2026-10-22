@@ -1,68 +1,4 @@
 ﻿.portfolio {
-    background: var(--cream-dark)
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 36px
-}
-
-.card {
-    background: #fdfaf4;
-    border: 1px solid var(--border);
-    border-radius: var(--radius-card);
-    overflow: hidden
-}
-
-.images {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    padding: 12px 12px 0
-}
-
-.images figure {
-    margin: 0
-}
-
-.images figcaption {
-    text-align: center;
-    font-family: var(--font-heading);
-    font-size: .85rem;
-    letter-spacing: .2em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    margin-bottom: 8px
-}
-
-.images img {
-    width: 100%;
-    aspect-ratio: 4/5;
-    object-fit: cover;
-    border-radius: 8px
-}
-
-.body {
-    padding: 24px 28px 32px
-}
-
-.body h3 {
-    font-size: 1.5rem;
-    margin-bottom: 8px
-}
-
-.body p {
-    color: var(--text-muted)
-}
-
-@media(max-width:860px) {
-    .grid {
-        grid-template-columns: 1fr
-    }
-}
-
-.portfolio {
     background: var(--cream-dark);
 }
 
@@ -85,7 +21,10 @@
 .image {
     display: block;
     width: 100%;
-    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    background: #f4f0e8;
+    /* same beige as the edge of your images */
 }
 
 .body {

@@ -1,17 +1,27 @@
 ﻿.hero {
-    padding: 100px 0 80px;
+    padding: 40px 0 80px;
+    /* was 100px 0 80px */
 }
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 64px;
-    align-items: center;
+    align-items: start;
+    /* was center */
 }
 
 .title {
-    font-size: clamp(3rem, 6vw, 5.4rem);
-    margin-bottom: 28px;
+    font-size: clamp(2.6rem, 5vw, 4.4rem);
+    margin-bottom: 24px;
+}
+
+.eyebrow {
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
 }
 
 .lead {
