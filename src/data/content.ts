@@ -1,9 +1,6 @@
+
 import type { Service, ProcessStep, Project, Testimonial } from "../types";
 
-import portfolio1 from "../assets/1.jpeg";
-import portfolio2 from "../assets/2.jpeg";
-import portfolio3 from "../assets/3.jpeg";
-import portfolio4 from "../assets/4.jpeg";
 export const contactInfo = {
     phone: "+91 93074 98290",
     phoneHref: "tel:+919307498290",
