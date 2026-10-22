@@ -14,8 +14,7 @@ export interface Project {
     id: string;
     title: string;
     description: string;
-    before: string;
-    after: string;
+    image: string;
 }
 
 export interface Testimonial {
