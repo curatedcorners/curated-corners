@@ -11,16 +11,11 @@ export default function Portfolio() {
                 <div className={styles.grid}>
                     {projects.map((p) => (
                         <article key={p.id} className={styles.card}>
-                            <div className={styles.images}>
-                                <figure>
-                                    <figcaption>Before</figcaption>
-                                    <img src={p.before} alt={`${p.title} — before`} loading="lazy" />
-                                </figure>
-                                <figure>
-                                    <figcaption>After</figcaption>
-                                    <img src={p.after} alt={`${p.title} — after`} loading="lazy" />
-                                </figure>
-                            </div>
+                            <img
+                                src={p.image}
+                                alt={`${p.title} — before and after`}
+                                className={styles.image}
+                            />
                             <div className={styles.body}>
                                 <h3>{p.title}</h3>
                                 <p>{p.description}</p>

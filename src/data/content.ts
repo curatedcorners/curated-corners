@@ -4,7 +4,6 @@ import portfolio1 from "../assets/1.jpeg";
 import portfolio2 from "../assets/2.jpeg";
 import portfolio3 from "../assets/3.jpeg";
 import portfolio4 from "../assets/4.jpeg";
-
 export const contactInfo = {
     phone: "+91 93074 98290",
     phoneHref: "tel:+919307498290",
@@ -54,32 +53,27 @@ export const projects: Project[] = [
         title: "Balcony Lounge Transformation",
         description:
             "A bare balcony transformed into an evening lounge with wicker seating, lanterns and layered greenery.",
-        before: portfolio1,
-        after: portfolio2,
+        image: "/images/1.jpeg",
     },
     {
         id: "window-ledge",
         title: "Window Ledge Makeover",
         description:
             "An overlooked window ledge reimagined as a planted, softly lit nook with a view.",
-        before: portfolio2,
-        after: portfolio3,
+        image: "/images/2.jpeg",
     },
     {
         id: "balcony-corner",
         title: "Balcony Corner Transformation",
         description:
             "A sunlit balcony corner refreshed with rattan seating, macramé planters and warm string lights.",
-        before: portfolio3,
-        after: portfolio4,
+        image: "/images/3.jpeg",
     },
     {
         id: "bedroom",
         title: "Bedroom Transformation",
-        description:
-            "A bedroom refreshed into a warm, organized retreat.",
-        before: portfolio4,
-        after: portfolio1,
+        description: "A bedroom refreshed into a warm, organized retreat.",
+        image: "/images/4.jpeg",
     },
 ];
 
@@ -87,26 +81,22 @@ export const processSteps: ProcessStep[] = [
     {
         id: "01",
         title: "Consultation",
-        description:
-            "We listen to your vision, lifestyle and goals for the space.",
+        description: "We listen to your vision, lifestyle and goals for the space.",
     },
     {
         id: "02",
         title: "Space Assessment",
-        description:
-            "We study light, flow and dimensions to find hidden potential.",
+        description: "We study light, flow and dimensions to find hidden potential.",
     },
     {
         id: "03",
         title: "Design & Mood Board",
-        description:
-            "We present a curated concept, palette and styling direction.",
+        description: "We present a curated concept, palette and styling direction.",
     },
     {
         id: "04",
         title: "Styling & Transformation",
-        description:
-            "We source, arrange and layer every detail with care.",
+        description: "We source, arrange and layer every detail with care.",
     },
     {
         id: "05",
