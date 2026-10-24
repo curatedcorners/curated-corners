@@ -18,13 +18,33 @@
     flex-direction: column;
 }
 
-.image {
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding: 16px 16px 0;
+}
+
+.images figure {
+    margin: 0;
+}
+
+.images figcaption {
+    text-align: center;
+    font-family: var(--font-heading);
+    font-size: 0.95rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+}
+
+.images img {
     display: block;
     width: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: contain;
-    background: #f4f0e8;
-    /* same beige as the edge of your images */
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .body {

@@ -1,6 +1,9 @@
 
 import type { Service, ProcessStep, Project, Testimonial } from "../types";
-
+import balconyLounge from "../assets/balcony-lounge.jpeg";
+import windowLedge from "../assets/window-ledge.jpeg";
+import balconyCorner from "../assets/balcony-corner.jpeg";
+import bedroom from "../assets/bedroom.jpeg";
 export const contactInfo = {
     phone: "+91 93074 98290",
     phoneHref: "tel:+919307498290",
@@ -50,30 +53,29 @@ export const projects: Project[] = [
         title: "Balcony Lounge Transformation",
         description:
             "A bare balcony transformed into an evening lounge with wicker seating, lanterns and layered greenery.",
-        image: "/images/1.jpeg",
+        image: balconyLounge,
     },
     {
         id: "window-ledge",
         title: "Window Ledge Makeover",
         description:
             "An overlooked window ledge reimagined as a planted, softly lit nook with a view.",
-        image: "/images/2.jpeg",
+        image: windowLedge,
     },
     {
         id: "balcony-corner",
         title: "Balcony Corner Transformation",
         description:
             "A sunlit balcony corner refreshed with rattan seating, macramé planters and warm string lights.",
-        image: "/images/3.jpeg",
+        image: balconyCorner,
     },
     {
         id: "bedroom",
         title: "Bedroom Transformation",
         description: "A bedroom refreshed into a warm, organized retreat.",
-        image: "/images/4.jpeg",
+        image: bedroom,
     },
 ];
-
 export const processSteps: ProcessStep[] = [
     {
         id: "01",
